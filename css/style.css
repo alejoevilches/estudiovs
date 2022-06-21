@@ -2,7 +2,8 @@ body {
   background-color: #48495b;
   margin: 0;
   padding: 0;
-  box-sizing: border-box; }
+  box-sizing: border-box;
+  height: 100vh; }
 
 .index__title {
   color: white;
@@ -35,13 +36,15 @@ body {
 .footer {
   text-align: center;
   background-color: black;
-  color: white; }
+  color: white;
+  position: relative;
+  bottom: 0; }
 
-.jumbotron {
+.hero {
   background-image: url(../img/hero.jpeg);
   background-size: cover;
   height: 85vh; }
-  .jumbotron .hero__title {
+  .hero__title {
     color: white;
     display: flex;
     align-items: flex-end;
@@ -49,12 +52,12 @@ body {
     padding-left: 40px;
     margin-bottom: 3vh;
     font-family: "Open Sans"; }
-  .jumbotron .hero__button {
+  .hero__button {
     background-color: #fca4a2;
     border: none;
     padding: 10px calc(1.475rem + 1vw);
     margin-left: 40px; }
-  .jumbotron a {
+  .hero a {
     color: #48495b;
     text-decoration: none;
     font-size: 1rem;
@@ -66,18 +69,18 @@ body {
   display: flex;
   align-content: center;
   padding: 40px; }
-  .nosotros .nosotros__content {
+  .nosotros__content {
     color: white;
     font-family: "Open Sans";
     text-align: right; }
-  .nosotros .nosotros__text {
+  .nosotros__text {
     font-family: "Raleway"; }
   @media screen and (max-width: 576px) {
     .nosotros .nosotros__text {
       font-size: 1.3rem;
       padding-bottom: 0; } }
 
-.instagram .instagram__plugin {
+.instagram__plugin {
   display: flex; }
 
 .instagram .responsive__plugin {
@@ -95,11 +98,11 @@ body {
   .direcciones p {
     font-family: "Raleway";
     color: white; }
-  .direcciones .box__direcciones {
+  .direcciones__box {
     display: flex;
     border: 2px;
     justify-content: space-between; }
-  .direcciones .direcciones__left {
+  .direcciones__left {
     text-align: right; }
 
 .redes {
@@ -115,10 +118,10 @@ body {
   .redes a {
     text-decoration: none;
     color: #48495b; }
-  .redes .redes__title {
+  .redes__title {
     font-size: calc(0.925rem + .5vw);
     color: #48495b; }
-  .redes .item__redes {
+  .redes__item {
     padding: 5px; }
   @media screen and (max-width: 768px) {
     .redes {
