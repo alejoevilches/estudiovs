@@ -38,7 +38,7 @@ body {
   color: white; }
 
 .jumbotron {
-  background-image: url(/img/hero.jpeg);
+  background-image: url(../img/hero.jpeg);
   background-size: cover;
   height: 85vh; }
   .jumbotron .hero__title {
@@ -84,7 +84,7 @@ body {
   display: none; }
 
 .instagram .embedsocial-hashtag {
-  background-image: url(/img/fondoinstagram.jpg);
+  background-image: url(../img/fondoinstagram.jpg);
   background-size: cover; }
 
 .direcciones {
