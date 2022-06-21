@@ -1,0 +1,125 @@
+.jumbotron{
+    background-image: url(/img/hero.jpeg);
+    background-size: cover;
+    height:85vh;
+
+    .hero__title{
+     color:white;
+     display:flex;
+     align-items: flex-end;
+     height: 45vh;
+     padding-left:40px;
+     margin-bottom:3vh;
+     font-family: $font-title;
+        }
+
+    .hero__button{
+        background-color:$secondary-color;
+        border:none;
+        padding:10px calc(1.475rem + 1vw);
+        margin-left:40px;
+    }
+    a{
+        color:$main-color;
+        text-decoration: none;
+        font-size: 1rem;
+        font-family: $font-text;
+        font-weight: bold;
+    }
+}
+
+.nosotros{
+    height:60vh;
+    display:flex;
+    align-content: center;
+    padding:40px;
+
+        .nosotros__content{
+            color:$main-textcolor;
+            font-family: $font-title;
+            text-align: right;
+        }
+
+        .nosotros__text{
+            font-family: $font-text;
+        }
+
+        @media screen and (max-width:576px){
+            .nosotros__text{
+                font-size: 1.3rem;
+                padding-bottom:0;
+                
+            }   
+        }
+  }
+
+  .instagram{
+
+    .instagram__plugin{
+        display:flex;
+    }
+
+    .responsive__plugin{
+        display:none;
+    }
+    .embedsocial-hashtag{
+        background-image:url(/img/fondoinstagram.jpg);
+        background-size: cover;
+    }
+  }
+
+  .direcciones{
+    padding:2vh;
+
+    h4{
+        font-family: $font-title;
+        color:$main-textcolor;
+    } 
+    p{
+        font-family:$font-text;
+        color:$main-textcolor;
+    }
+    .box__direcciones{
+        display:flex;
+        border:2px;
+        justify-content: space-between;
+    }
+    .direcciones__left{
+        text-align: right;
+    }
+  }
+
+  .redes{
+    width:50vw;
+    height:fit-content;
+    background-color: $secondary-color;
+    border: 5vh solid $main-color;
+    border-left: 90px solid $main-color;
+    padding:2vh;
+    text-align: right;
+    
+    ul{
+        list-style: none;
+    }
+
+    a{
+        text-decoration:none;
+        color:$main-color;
+    }
+
+    .redes__title{
+        font-size: calc(0.925rem + .5vw);
+        color:$main-color;
+    }
+
+    .item__redes{
+        padding:5px;
+    }
+
+    @media screen and (max-width:768px) { 
+        width:100vw;
+        height:max-content;
+        border:0;
+        text-align:center;
+    }
+}

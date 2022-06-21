@@ -1,0 +1,13 @@
+body{
+    background-color: $main-color;
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+.index__title{
+    color:$main-textcolor;
+    font-family: $font-title;
+    text-align: center;
+    padding-bottom:2vh;
+}

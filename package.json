@@ -1,0 +1,19 @@
+{
+  "name": "estudiovs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bootstrap.bundle.min.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sasseame": "node-sass --include-path scss scss/_main.scss css/style.css",
+    "watch": "nodemon -e scss -x  \"npm run sasseame\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^7.0.1",
+    "nodemon": "^2.0.16",
+    "sass": "^1.52.3"
+  }
+}
