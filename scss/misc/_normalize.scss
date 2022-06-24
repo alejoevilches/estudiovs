@@ -3,7 +3,6 @@ body{
     margin: 0;
     padding: 0;
     box-sizing:border-box;
-    height: 100vh;
 }
 
 .index__title{
@@ -11,4 +10,8 @@ body{
     font-family: $font-title;
     text-align: center;
     padding-bottom:2vh;
+}
+
+.title__page{
+    padding-bottom:5vh;
 }

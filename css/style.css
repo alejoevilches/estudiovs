@@ -2,14 +2,16 @@ body {
   background-color: #48495b;
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
-  height: 100vh; }
+  box-sizing: border-box; }
 
 .index__title {
   color: white;
   font-family: "Open Sans";
   text-align: center;
   padding-bottom: 2vh; }
+
+.title__page {
+  padding-bottom: 5vh; }
 
 .navbar {
   font-size: 100%;
@@ -36,9 +38,7 @@ body {
 .footer {
   text-align: center;
   background-color: black;
-  color: white;
-  position: relative;
-  bottom: 0; }
+  color: white; }
 
 .hero {
   background-image: url(../img/hero.jpeg);
@@ -129,3 +129,45 @@ body {
       height: max-content;
       border: 0;
       text-align: center; } }
+
+.row {
+  row-gap: 50px; }
+
+.especialidad {
+  display: flex;
+  padding-top: 20px;
+  flex-direction: column;
+  color: white;
+  text-align: center;
+  justify-content: center; }
+  .especialidad__list {
+    list-style: none;
+    font-family: "Raleway";
+    font-size: 3vh; }
+  .especialidad__title {
+    font-family: "Open Sans";
+    display: flex;
+    text-align: center;
+    justify-content: center; }
+  .especialidad__item {
+    text-align: center; }
+
+.imagen {
+  width: 41vw;
+  background-size: cover; }
+
+.familia {
+  background-image: url(/img/familia.jpeg); }
+
+.laboral {
+  background-image: url(/img/laboral.jpg); }
+
+.sucesiones {
+  background-image: url(/img/sucesiones.jpeg); }
+
+.jubilaciones {
+  background-image: url(/img/jubilaciones.jpeg); }
+
+@media screen and (max-width: 768px) {
+  .row {
+    row-gap: 10px; } }

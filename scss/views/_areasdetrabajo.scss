@@ -1,0 +1,56 @@
+.row{
+    row-gap:50px;
+}
+
+.especialidad{
+    display:flex;
+    padding-top:20px;
+    flex-direction: column;
+    color:$main-textcolor;
+    text-align: center;
+    justify-content: center;
+
+    &__list{
+    list-style: none;
+    font-family: $font-text;
+    font-size: 3vh;
+    }
+
+    &__title{
+        font-family: $font-title;
+        display:flex;
+        text-align: center;
+        justify-content: center;
+    }
+    &__item{
+        text-align: center;
+    }
+
+}
+
+.imagen{
+    width:41vw;
+    background-size: cover;
+}
+
+.familia{
+    background-image: url(/img/familia.jpeg);
+}
+
+.laboral{
+    background-image: url(/img/laboral.jpg);
+}
+
+.sucesiones{
+    background-image: url(/img/sucesiones.jpeg);
+}
+
+.jubilaciones{
+    background-image: url(/img/jubilaciones.jpeg);
+}
+
+@media screen and (max-width:768px){
+    .row{
+      row-gap: 10px;
+    }
+}
