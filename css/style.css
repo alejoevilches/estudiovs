@@ -38,7 +38,8 @@ body {
 .footer {
   text-align: center;
   background-color: black;
-  color: white; }
+  color: white;
+  height: 5vh; }
 
 .hero {
   background-image: url(../img/hero.jpeg);
@@ -171,3 +172,47 @@ body {
 @media screen and (max-width: 768px) {
   .row {
     row-gap: 10px; } }
+
+.intro__title {
+  text-align: center;
+  color: white;
+  font-family: "Open Sans";
+  color: white; }
+
+.intro__description {
+  color: white;
+  font-family: "Raleway";
+  text-align: justify;
+  padding: 20px 250px; }
+
+.cards {
+  display: flex;
+  flex-direction: row; }
+
+.card {
+  display: flex;
+  width: 30vw;
+  justify-content: center;
+  align-content: center;
+  background-color: #48495b;
+  text-align: center;
+  color: white;
+  border: 2px solid white;
+  margin: 20px;
+  padding: 20px; }
+  .card-title {
+    font-family: "Open Sans"; }
+  .card-text {
+    font-family: "Raleway"; }
+  .card-footer {
+    background-color: #48495b;
+    font-family: "Raleway";
+    color: #fca4a2; }
+
+@media screen and (max-width: 768px) {
+  .cards {
+    flex-direction: column; }
+  .intro__description {
+    padding: 20px; }
+  .card {
+    width: auto; } }
