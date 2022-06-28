@@ -1,0 +1,36 @@
+.mapa{
+    display:flex;
+    flex-direction: row;
+    color:$main-textcolor;
+    font-family:$font-title;
+    padding:2vh;
+
+
+    &__text{
+        width:55vw;
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: justify;
+        align-items: flex-end;
+    }
+
+    &__textdescription{
+        font-family:$font-text;
+        text-align:right;
+        align-items: center;
+        margin-left:1vh;
+    }
+}
+
+@media screen and (max-width: 576px){
+    .mapa__text{
+        align-items: center;
+        margin:1vh;
+    }
+
+    .mapa__textdescription{
+        font-size: 1.8vh;
+        align-items:center;
+    }
+}

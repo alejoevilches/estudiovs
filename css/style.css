@@ -216,3 +216,30 @@ body {
     padding: 20px; }
   .card {
     width: auto; } }
+
+.mapa {
+  display: flex;
+  flex-direction: row;
+  color: white;
+  font-family: "Open Sans";
+  padding: 2vh; }
+  .mapa__text {
+    width: 55vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: justify;
+    align-items: flex-end; }
+  .mapa__textdescription {
+    font-family: "Raleway";
+    text-align: right;
+    align-items: center;
+    margin-left: 1vh; }
+
+@media screen and (max-width: 576px) {
+  .mapa__text {
+    align-items: center;
+    margin: 1vh; }
+  .mapa__textdescription {
+    font-size: 1.8vh;
+    align-items: center; } }
