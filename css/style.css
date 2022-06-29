@@ -243,3 +243,30 @@ body {
   .mapa__textdescription {
     font-size: 1.8vh;
     align-items: center; } }
+
+.contacto__title {
+  display: flex;
+  height: 79vh;
+  align-items: center;
+  text-align: left; }
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-right: 30px; }
+
+.formulario {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  gap: 20px; }
+
+.title {
+  background-image: url(/img/hero.jpeg);
+  background-size: cover;
+  padding-left: 40px; }
+
+.btn {
+  background-color: #fca4a2;
+  color: #48495b; }

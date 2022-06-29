@@ -33,3 +33,45 @@
         </div>
     </nav> 
     </header>
+    <div class="row">
+    <section class="title col-6">
+    <h1 class="contacto__title index__title title__page">Contactate<br>con<br>nosotros</h1>
+    </section>
+    <section class="form col-6">
+        <form class="formulario">
+            <label for="nombre">Ingresá tu nombre</label>
+            <input type="text" name="nombre" id="nombre" placeholder="Juan Pérez">
+            <label for="telefono">Ingresá tu número de teléfono</label>
+            <input type="tel" name="telefono" id="telefono" placeholder="1123456789">
+            <label for="especialidad">Seleccioná que especialidad te gustaria consultar</label>
+            <div class="formulario__radios">
+                <input type="radio" name="especialidad" id="radio">
+                <label for="familia">Derecho de Familia</label>
+                <input type="radio" name="especialidad" id="radio">
+                <label for="laboral">Derecho Laboral</label>
+                <input type="radio" name="especialidad" id="radio">
+                <label for="sucesiones">Sucesiones</label>
+                <input type="radio" name="especialidad" id="radio">
+                <label for="jubilaciones">Jubilaciones</label>
+            </div>
+            <label for="localidad">¿Cual de todas nuestras oficinas es la mas cercana a tu domicilio?</label>
+            <select name="localidad" id="list">
+                <option value="localidad">Quilmes</option>
+                <option value="localidad">La Plata</option>
+                <option value="localidad">Ciudad de Buenos Aires</option>
+                <option value="localidad">La Matanza</option>  
+            </select>
+            <label for="consulta">Escribí acá tu consulta</label>
+            <input class="formulario__textarea" type="textarea" name="consulta" id="textarea" placeholder="Necesito tener asesoramiento sobre mi caso">
+            <input class="btn btn-primary" type="submit" value="Enviar">
+            <input class="btn btn-primary" type="reset" value="Reiniciar formulario">
+        </form>
+    </section>
+    </div>
+    <footer class="footer col-12">
+        <p>Hecho con amor por Alejo Vilches. Todos los derechos reservados.</p>
+    </footer>
+</main>
+</body>
+</html>
+    
