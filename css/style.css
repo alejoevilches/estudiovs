@@ -246,7 +246,7 @@ body {
 
 .contacto__title {
   display: flex;
-  height: 79vh;
+  height: 79gvh;
   align-items: center;
   text-align: left; }
 
@@ -263,7 +263,7 @@ body {
   gap: 20px; }
 
 .title {
-  background-image: url(/img/hero.jpeg);
+  background-image: url(../img/hero.jpeg);
   background-size: cover;
   padding-left: 40px; }
 
