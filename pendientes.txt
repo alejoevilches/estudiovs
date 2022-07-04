@@ -1,4 +1,5 @@
  - Hover en botones
+ - Color de lista en boton
  - Ajustar vista panoramica
  - SEO
  - Subir al servidor

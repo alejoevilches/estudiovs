@@ -20,6 +20,9 @@
         border:none;
         padding:10px calc(1.475rem + 1vw);
         margin-left:40px;
+        &:hover{
+            background-color:white;
+        }
     }
     a{
         color:$main-color;

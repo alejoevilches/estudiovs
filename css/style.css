@@ -58,6 +58,8 @@ body {
     border: none;
     padding: 10px calc(1.475rem + 1vw);
     margin-left: 40px; }
+    .hero__button:hover {
+      background-color: white; }
   .hero a {
     color: #48495b;
     text-decoration: none;
