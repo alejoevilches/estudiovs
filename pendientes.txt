@@ -1,0 +1,5 @@
+ - Hover en botones
+ - Aprender pseudoclases y SASS II
+ - Ajustar vista panoramica
+ - SEO
+ - Subir al servidor

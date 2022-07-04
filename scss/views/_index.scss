@@ -1,6 +1,8 @@
 .hero{
-    background-image: url(../img/hero.jpeg);
-    background-size: cover;
+    background: {
+        size:cover;
+        image:url(../img/hero.jpeg);
+    };
     height:85vh;
 
     &__title{
@@ -22,9 +24,11 @@
     a{
         color:$main-color;
         text-decoration: none;
-        font-size: 1rem;
-        font-family: $font-text;
-        font-weight: bold;
+        font:{
+            size:1rem;
+            family:$font-title;
+            weight:bold;
+        }
     }
 }
 

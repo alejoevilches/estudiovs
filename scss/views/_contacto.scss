@@ -20,8 +20,10 @@
 }
 
 .title{
-    background-image: url(../img/hero.jpeg);
-    background-size: cover;
+    background:{
+        image:url(../img/hero.jpeg);
+        size: cover;
+    }
     padding-left:40px;
     }
 

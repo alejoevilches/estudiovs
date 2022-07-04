@@ -12,8 +12,10 @@
 
     &__list{
     list-style: none;
-    font-family: $font-text;
-    font-size: 3vh;
+    font: { 
+        family:$font-text;
+        size:3vh;
+        }
     }
 
     &__title{
