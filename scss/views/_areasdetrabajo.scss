@@ -2,6 +2,10 @@
     row-gap:50px;
 }
 
+.title__page{
+    @include title;
+}
+
 .especialidad{
     display:flex;
     padding-top:20px;

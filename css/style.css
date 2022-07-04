@@ -134,6 +134,12 @@ body {
 .row {
   row-gap: 50px; }
 
+.title__page {
+  color: white;
+  display: flex;
+  justify-content: center;
+  font-family: "Open Sans"; }
+
 .especialidad {
   display: flex;
   padding-top: 20px;
