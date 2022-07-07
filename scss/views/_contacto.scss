@@ -1,8 +1,17 @@
-.contacto__title{
+.contacttitle{
     display:flex;
-    height:79gvh;
     align-items: center;
-    text-align: left;
+    padding-left:40px;
+    height: 80vh;
+    background: {
+        image:url(/img/hero.jpeg);
+        size: cover; 
+}
+    &__title{
+        color:white;
+        font-family: $font-title;
+        align-items: center;
+    }
 }
 
 .form{
@@ -18,14 +27,6 @@
     color: white;
     gap:20px;
 }
-
-.title{
-    background:{
-        image:url(../img/hero.jpeg);
-        size: cover;
-    }
-    padding-left:40px;
-    }
 
 .btn{
     background-color:$secondary-color;

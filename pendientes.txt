@@ -2,3 +2,4 @@
  - SEO
  - Subir al servidor
  - Hover en botones de contacto
+ - Arreglar pagina de contacto
