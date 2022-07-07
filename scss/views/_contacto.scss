@@ -11,6 +11,10 @@
         color:white;
         font-family: $font-title;
         align-items: center;
+
+        &responsive{
+            display:none;
+        }
     }
 }
 
@@ -31,4 +35,19 @@
 .btn{
     background-color:$secondary-color;
     color:$main-color;
+}
+
+@media screen and (max-width:540px) {
+    .contacttitle{
+        display: none;
+
+        &__titleresponsive{
+            display:flex;
+            justify-content: center;
+        }
+    }
+    
+    .formulario{
+        justify-content: center;
+    }
 }
