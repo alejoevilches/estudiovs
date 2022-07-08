@@ -259,7 +259,7 @@ body {
   align-items: center;
   padding-left: 40px;
   height: 80vh;
-  background-image: url(/img/hero.jpeg);
+  background-image: url(../img/hero.jpeg);
   background-size: cover; }
   .contacttitle__title {
     color: white;
